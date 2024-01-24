@@ -108,3 +108,26 @@ img {
     margin-top: 70px;
     width: 320px;
 }
+.container .item-5 {
+    grid-area: item-5;
+}
+
+.container .item-5 > img {
+    width: 450px;
+    margin-left: -150px;
+    margin-top: 90px;
+}
+
+.container .item-5 > div {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container .item-5 > h3 {
+    padding-top: 40px;
+    margin: auto;
+    display: block;
+    max-width: 160px;
+    font-weight: 400;
+    font-size: 22px;
+}
