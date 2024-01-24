@@ -6,10 +6,10 @@ body{
     display: grid;
     height: 150vh;
     grid-template-areas: 
-    "item-1 item-1 item-1 item-2 item-2 item-2 item-3 item-3 item-3 item-3 item-3 item-3"
-    "item-4 item-4 item-4 item-5 item-5 item-5 item-5 item-5 item-5 item-6 item-6 item-6"
-    "item-7 item-7 item-7 item-8 item-8 item-8 item-8 item-8 item-8 item-6 item-6 item-6"
-    "item-9 item-9 item-9 item-10 item-10 item-10 item-11 item-11 item-11 item-11 item-11 item-11"
+    "item-1 item-1 item-1 item-1 item-1 item-1 item-2 item-2 item-2 item-2 item-2 item-2"
+    "item-3 item-3 item-3 item-4 item-4 item-4 item-4 item-4 item-4 item-5 item-5 item-5"
+    "item-6 item-6 item-6 item-7 item-7 item-7 item-7 item-7 item-7 item-5 item-5 item-5"
+    "item-8 item-8 item-8 item-9 item-9 item-9 item-10 item-10 item-10 item-10 item-10 item-10"
     ;
 }
 .container .item-1{
@@ -51,8 +51,4 @@ body{
 .container .item-10{
     background-color: violet;
     grid-area: item-10;
-}
-.container .item-11{
-    background-color: coral;
-    grid-area: item-11;
 }
