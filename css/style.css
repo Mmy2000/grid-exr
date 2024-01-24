@@ -90,4 +90,21 @@ img {
 .container .item-3 .center {
     margin-top: 50px;
 }
+.container .item-4 {
+    background-color: #f05638;
+    color: #fffbfb;
+    grid-area: item-4;
+    text-align: center;
+}
+.item-4 > a {
+    color: #ffc80a;
+    font-size: 1rem;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
 
+.item-4 > img {
+    margin-top: 70px;
+    width: 320px;
+}
