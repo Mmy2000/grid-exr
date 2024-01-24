@@ -30,28 +30,5 @@ body{
     background-color: brown;
     grid-area: item-4;
 }
-.container .item-5{
-    background-color: blueviolet;
-    grid-area: item-5;
-}
-.container .item-6{
-    background-color: blue;
-    grid-area: item-6;
-}
-.container .item-7{
-    background-color: cadetblue;
-    grid-area: item-7;
-}
-.container .item-8{
-    background-color: teal;
-    grid-area: item-8;
-}
-.container .item-9{
-    background-color: gray;
-    grid-area: item-9;
-}
-.container .item-10{
-    background-color: violet;
-    grid-area: item-10;
-}
+
 
