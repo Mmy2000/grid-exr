@@ -4,18 +4,20 @@ body{
 .container{
     background-color: tomato;
     display: grid;
-    height: 150vh;
-    grid-template-areas: 
-    "item-1 item-1 item-1 item-1 item-1 item-1 item-2 item-2 item-2 item-2 item-2 item-2"
-    "item-3 item-3 item-3 item-4 item-4 item-4 item-4 item-4 item-4 item-5 item-5 item-5"
-    "item-6 item-6 item-6 item-7 item-7 item-7 item-7 item-7 item-7 item-5 item-5 item-5"
-    "item-8 item-8 item-8 item-9 item-9 item-9 item-10 item-10 item-10 item-10 item-10 item-10"
-    ;
+    grid-template-columns: 1fr 1fr 1fr 25%;
+    grid-template-rows: 1fr 1fr 1fr 0.5fr;
+    grid-template-areas:
+        'd1 d2 d3 d3'
+        'd4 d5 d6 d7'
+        'd8 d9 d9 d7'
+        'd10 d11 d12 d12';
 }
 .container .item-1{
     background-color: aqua;
     grid-area: item-1;
+    display: flex;
 }
+
 .container .item-2{
     background-color: aquamarine;
     grid-area: item-2;
@@ -52,3 +54,4 @@ body{
     background-color: violet;
     grid-area: item-10;
 }
+
