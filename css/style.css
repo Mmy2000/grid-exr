@@ -228,3 +228,54 @@ img {
     width: 230px;
     margin-top: 20px;
 }
+.item-8 {
+    background-color: #f7f8f9;
+    grid-area: item-8;
+    text-align: center;
+}
+
+.item-8 > img {
+    margin-right: 25px;
+    margin-top: 70px;
+    width: 248px;
+}
+
+.item-9 {
+    background-image: url(../img/5bc2f42d5a5ed97dab707e7e_UX.png);
+    background-repeat: no-repeat;
+    background-color: #93b6b7;
+    grid-area: item-9;
+    text-align: center;
+    color: white;
+    background-position: center center;
+    background-size: 80%;
+}
+
+.item-9 > img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.item-9 > h3 {
+    font-weight: bold;
+    margin-left: 120px;
+    padding-top: 20px;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.mini-caps {
+    float: left;
+    border-radius: 5px;
+    background-color: #fa684f;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 20px;
+    font-size: 0.7rem;
+
+}
