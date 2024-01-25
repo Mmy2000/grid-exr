@@ -279,3 +279,63 @@ img {
     font-size: 0.7rem;
 
 }
+
+.item-10 {
+    text-align: center;
+    background-color: #38d5f4;
+    color: #fff;
+    grid-area: item-10;
+}
+
+.twitter-container {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    margin: auto;
+    display: block;
+    background-color: #35cfed;
+    text-align: center;
+}
+
+.twitter-container > img {
+    width: 44px;
+    margin-top: 100px;
+}
+
+.item-11 {
+    background-color: #f7f8f9;
+    grid-area: item-11;
+    text-align: center;
+}
+
+.item-11 > div {
+    margin-left: 40%;
+    margin-top: 100px;
+    position: static;
+    color: white;
+    background-color: #7bc424;
+}
+
+.item-11 > h3 {
+    margin-top: 130px;
+    font-size: 1.6rem;
+}
+
+.item-12 {
+    background-color: #2c2c2c;
+    color: #fff;
+    grid-area: item-12;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-12 > h3 {
+    margin-left: 100px;
+    font-size: 1.6rem;
+}
+
+.item-12 > img {
+    width: 270px;
+}
